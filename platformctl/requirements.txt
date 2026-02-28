@@ -1,1 +1,7 @@
-
+fastapi
+uvicorn
+typer
+kubernetes
+pyyaml
+rich
+requests
