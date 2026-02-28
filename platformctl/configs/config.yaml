@@ -1,1 +1,19 @@
+platform:
+  name: PlatformCTL
+  environment: production
 
+kubernetes:
+  namespace: default
+  context: minikube
+
+monitoring:
+  prometheus: http://localhost:9090
+  grafana: http://localhost:3000
+
+security:
+  trivy_enabled: true
+  kube_bench_enabled: true
+
+logging:
+  level: INFO
+  file: logs/platformctl.log
